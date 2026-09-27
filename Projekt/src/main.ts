@@ -11,10 +11,11 @@ type Todo = {
 
 let arrayOfTodos: Todo[]=[];
 
+let todoIdCounter = 0;
 if (addButton && inputTextField && todosContainer){
     addButton?.addEventListener('click',(e)=>{
         let wynik=inputTextField.value;
-        let newTodo: Todo = {id: arrayOfTodos.length, title: wynik}
+        let newTodo: Todo = {id: todoIdCounter++, title: wynik}
 
         arrayOfTodos.push(newTodo);
 
