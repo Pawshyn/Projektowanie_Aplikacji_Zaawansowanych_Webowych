@@ -32,7 +32,7 @@ function boilList(){
     let id=document.createElement("p");
     
     title.textContent="Tytuł: " + todo.title;
-    id.textContent="ID: " + Element.bind;
+    id.textContent="ID: " + todo.bind;
 
     container.appendChild(title);
     container.appendChild(id);
