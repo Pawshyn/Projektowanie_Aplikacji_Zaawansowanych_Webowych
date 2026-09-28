@@ -1,4 +1,4 @@
-const addButton: HTMLButtonElement|null = document.querySelector("#todoADDButton");
+const addButton: HTMLButtonElement|null = document.querySelector("#todoAddButton");
 const inputTextField: HTMLInputElement|null=document.querySelector("#todoInputField");
 const todosContainer: HTMLDivElement = document.querySelector("#todoContainer")!;
 
