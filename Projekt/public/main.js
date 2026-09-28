@@ -14,13 +14,16 @@ function buildList() {
     todosContainer.innerHTML = "";
     arrayOfTodos.forEach(element => {
         let container = document.createElement("div");
-        container.classList.add('todo-item');
+        container.classList.add("card-body");
+        let container2 = document.createElement("div");
+        container2.classList.add("card");
         let title = document.createElement('h3');
         let id = document.createElement('p');
         title.textContent = "Tytuł: " + element.title;
         id.textContent = "ID: " + element.id;
         container.appendChild(title);
         container.appendChild(id);
-        todosContainer?.appendChild(container);
+        container2.appendChild(container);
+        todosContainer?.appendChild(container2);
     });
 }
