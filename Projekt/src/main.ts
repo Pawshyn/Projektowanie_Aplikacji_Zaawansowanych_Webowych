@@ -1,5 +1,5 @@
 const addButton: HTMLButtonElement|null = document.querySelector("#todoAddButton");
-const inputTextField: HTMLInputElement|null=document.querySelector("#todoInputField");
+const inputTextField: HTMLInputElement|null = document.querySelector("#todoInputField") ;
 const todosContainer: HTMLDivElement = document.querySelector("#todoContainer")!;
 
 type Todo = {
@@ -9,35 +9,33 @@ type Todo = {
     isDone?: boolean,
 }
 
-let arrayOfTodos: Todo[]=[];
+let arrayOfTodos: Todo[] = [];
 
-let todoIdCounter = 0;
 if (addButton && inputTextField && todosContainer){
-    addButton?.addEventListener('click',(e)=>{
-        let wynik=inputTextField.value;
-        let newTodo: Todo = {id: todoIdCounter++, title: wynik}
-
-        arrayOfTodos.push(newTodo);
-
-        inputTextField.value='';
-
-        boilList();
-    }) 
-}
-function boilList(){
-    todosContainer.innerHTML = "";
-    arrayOfTodos.forEach(todo => {
-    let container=document.createElement("div");
-    container.classList.add('todo-item');
-    let title= document.createElement("h1");
-    let id=document.createElement("p");
     
-    title.textContent="Tytuł: " + todo.title;
-    id.textContent="ID: " + todo.bind;
-
-    container.appendChild(title);
-    container.appendChild(id);
-
-    todosContainer?.appendChild(container);
+    addButton?.addEventListener('click',(e) =>{
+        
+        arrayOfTodos.push({id: arrayOfTodos.length, title: inputTextField?.value});
+        inputTextField.value='';
+        buildList();
     })
+}
+
+function buildList(){
+    todosContainer.innerHTML = "";
+    arrayOfTodos.forEach(element => {
+        let container = document.createElement("div");
+
+        let title = document.createElement('h3');
+        let id = document.createElement('p');
+
+        title.textContent = "Tytuł: " + element.title;
+        id.textContent = "ID: " + element.id;
+
+        container.appendChild(title);
+        container.appendChild(id);
+
+        todosContainer?.appendChild(container);
+        
+    });
 }
