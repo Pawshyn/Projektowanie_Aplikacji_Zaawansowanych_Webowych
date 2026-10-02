@@ -1,0 +1,28 @@
+Wymagania funkcjonalne:
+
+1.WF-01 - Logowanie: System umożliwia logowanie użytkownika przy użyciu indywidualnego konta poprzez login i hasło
+2.WF-02 - Zarządzanie produktami: System umożliwia dodawanie, edycję oraz usuwanie produktów które mają swoje specyfikacje - nazwę, kategorię, kod EAN, lokalizację - S(sektor), R(regał), P(półka)
+3.WF-03 - Wyszukiwanie towaru: System umożliwia wyszukiawnie towaru poprzez kod EAN, nazwę, kategorię, lokalizację
+4.WF-04 - Przyjęcie dostawy: System umożliwia rejestrację przyjęcia towaru(identyfikator, ilość, datę, pracownika który przyjął) i automatycznie zwiększa ilość towaru
+5.WF-05 - Wydanie towaru: System rejestruje wydanie towaru do klienta(identyfikator towaru, ilość, data, pracownik który oddał)
+6.WF-06 - Walidacja stanów magazynowych: System blokuje próby zatwierdzenia wydania towaru, jeżeli jego ilość przekracza ilośc dostępnego produktu w sklepie
+7.WF-07 - Obsługa współbieżności operacji: System weryfikuje dostępność produktów w czasie rzeczywistym podczas prób wydania tego samego towaru przez wielu pracowników
+8.WF-08 - Historia zdarzeń: System automatycznie rejestruje każde przyjęcie, wydanie towaru zapisując czas, datę, identyfikator użytkownika, rodzaj zdarzenia, produkt, ilość produktu
+9.WF-09 - Przegład i generowanie raportów: System umożliwia genrowanie i przeglądanie raportów dotyczących aktualnych stanów magazynowych
+10.WF-10 - Zarżadzanie kontami: System umożliwia tworzenie, usuwanie, modyfikowanie kont pracowników, resetowanie haseł i przypisanie ról w systemie
+
+Wymagania niefunkcjonalne:
+
+1.WNF-01 - Czas odpowiedzi systemu podczas wyszukiwania produktu, odczytu kodu EAN oraz rejestracji operacji nie może przekraczać 1–2 sekund w typowych warunkach obciążenia.
+2.WNF-02 - Bezpieczeństwo: Dostęp do funkcji systemu jest ograniczony za pomocą ról, kazdy uzytkownik musi posiadać osobiste, unikalne konto
+3.WNF-03 - Spójność danych: System zapewnia bazę danych
+4.WNF-04 - Sposób korzystania z systemu (Użyteczność): Interfejs użytkownika jest prosty i umożliwiający szybkie zarejestrowanie przyjęcia, wydania towaru
+5.WNF-05 - Dostępność: System wykazuje dostępność na poziomie minimum 99,5% w godzinach pracy magazynu hurtowni.
+
+Aktorzy:
+
+Pracownik magazynu - Odpowiada za fizyczną obsługę towaru. W systemie wyszukuje produkty, sprawdza ich lokalizację, rejestruje przyjęcia dostaw oraz wydania towaru do zamówień.
+
+Kierownik magazynu: Odpowiada za nadzór nad gospodarką magazynową. Dodaje nowe produkty do bazy, zarządza danymi asortymentu, monitoruje bieżące stany magazynowe oraz generuje raporty.
+
+Administrator: Odpowiada za utrzymanie systemu i bezpieczeństwo dostępów. Zakłada i edytuje konta użytkowników, zarządza uprawnieniami oraz wykonuje reset haseł.

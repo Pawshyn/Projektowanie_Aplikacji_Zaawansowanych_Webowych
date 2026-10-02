@@ -1,0 +1,40 @@
+E:\1\ElektroBud\ElektroBud\bin\Debug\net10.0-windows\ElektroBud.exe
+E:\1\ElektroBud\ElektroBud\bin\Debug\net10.0-windows\ElektroBud.deps.json
+E:\1\ElektroBud\ElektroBud\bin\Debug\net10.0-windows\ElektroBud.runtimeconfig.json
+E:\1\ElektroBud\ElektroBud\bin\Debug\net10.0-windows\ElektroBud.dll
+E:\1\ElektroBud\ElektroBud\bin\Debug\net10.0-windows\ElektroBud.pdb
+E:\1\ElektroBud\ElektroBud\obj\Debug\net10.0-windows\MainWindow.g.cs
+E:\1\ElektroBud\ElektroBud\obj\Debug\net10.0-windows\App.g.cs
+E:\1\ElektroBud\ElektroBud\obj\Debug\net10.0-windows\ElektroBud_MarkupCompile.cache
+E:\1\ElektroBud\ElektroBud\obj\Debug\net10.0-windows\MainWindow.baml
+E:\1\ElektroBud\ElektroBud\obj\Debug\net10.0-windows\ElektroBud.g.resources
+E:\1\ElektroBud\ElektroBud\obj\Debug\net10.0-windows\ElektroBud.GeneratedMSBuildEditorConfig.editorconfig
+E:\1\ElektroBud\ElektroBud\obj\Debug\net10.0-windows\ElektroBud.AssemblyInfoInputs.cache
+E:\1\ElektroBud\ElektroBud\obj\Debug\net10.0-windows\ElektroBud.AssemblyInfo.cs
+E:\1\ElektroBud\ElektroBud\obj\Debug\net10.0-windows\ElektroBud.csproj.CoreCompileInputs.cache
+E:\1\ElektroBud\ElektroBud\obj\Debug\net10.0-windows\ElektroBud.dll
+E:\1\ElektroBud\ElektroBud\obj\Debug\net10.0-windows\refint\ElektroBud.dll
+E:\1\ElektroBud\ElektroBud\obj\Debug\net10.0-windows\ElektroBud.pdb
+E:\1\ElektroBud\ElektroBud\obj\Debug\net10.0-windows\ElektroBud.genruntimeconfig.cache
+E:\1\ElektroBud\ElektroBud\obj\Debug\net10.0-windows\ref\ElektroBud.dll
+E:\1\ElektroBud\ElektroBud\obj\Debug\net10.0-windows\ElektroBud.csproj.Up2Date
+E:\Projekt ElektroBud\Aplikacja WPF\ElektroBud\bin\Debug\net10.0-windows\ElektroBud.exe
+E:\Projekt ElektroBud\Aplikacja WPF\ElektroBud\bin\Debug\net10.0-windows\ElektroBud.deps.json
+E:\Projekt ElektroBud\Aplikacja WPF\ElektroBud\bin\Debug\net10.0-windows\ElektroBud.runtimeconfig.json
+E:\Projekt ElektroBud\Aplikacja WPF\ElektroBud\bin\Debug\net10.0-windows\ElektroBud.dll
+E:\Projekt ElektroBud\Aplikacja WPF\ElektroBud\bin\Debug\net10.0-windows\ElektroBud.pdb
+E:\Projekt ElektroBud\Aplikacja WPF\ElektroBud\obj\Debug\net10.0-windows\MainWindow.baml
+E:\Projekt ElektroBud\Aplikacja WPF\ElektroBud\obj\Debug\net10.0-windows\MainWindow.g.cs
+E:\Projekt ElektroBud\Aplikacja WPF\ElektroBud\obj\Debug\net10.0-windows\App.g.cs
+E:\Projekt ElektroBud\Aplikacja WPF\ElektroBud\obj\Debug\net10.0-windows\ElektroBud_MarkupCompile.cache
+E:\Projekt ElektroBud\Aplikacja WPF\ElektroBud\obj\Debug\net10.0-windows\ElektroBud.g.resources
+E:\Projekt ElektroBud\Aplikacja WPF\ElektroBud\obj\Debug\net10.0-windows\ElektroBud.GeneratedMSBuildEditorConfig.editorconfig
+E:\Projekt ElektroBud\Aplikacja WPF\ElektroBud\obj\Debug\net10.0-windows\ElektroBud.AssemblyInfoInputs.cache
+E:\Projekt ElektroBud\Aplikacja WPF\ElektroBud\obj\Debug\net10.0-windows\ElektroBud.AssemblyInfo.cs
+E:\Projekt ElektroBud\Aplikacja WPF\ElektroBud\obj\Debug\net10.0-windows\ElektroBud.csproj.CoreCompileInputs.cache
+E:\Projekt ElektroBud\Aplikacja WPF\ElektroBud\obj\Debug\net10.0-windows\ElektroBud.dll
+E:\Projekt ElektroBud\Aplikacja WPF\ElektroBud\obj\Debug\net10.0-windows\refint\ElektroBud.dll
+E:\Projekt ElektroBud\Aplikacja WPF\ElektroBud\obj\Debug\net10.0-windows\ElektroBud.pdb
+E:\Projekt ElektroBud\Aplikacja WPF\ElektroBud\obj\Debug\net10.0-windows\ElektroBud.genruntimeconfig.cache
+E:\Projekt ElektroBud\Aplikacja WPF\ElektroBud\obj\Debug\net10.0-windows\ref\ElektroBud.dll
+E:\Projekt ElektroBud\Aplikacja WPF\ElektroBud\obj\Debug\net10.0-windows\ElektroBud.csproj.Up2Date

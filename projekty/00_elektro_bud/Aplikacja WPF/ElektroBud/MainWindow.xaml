@@ -1,0 +1,51 @@
+﻿<Window x:Class="ElektrobudMagazyn.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Magazyn Elektrobud" Height="650" Width="600">
+    <!--Ten kod wyświtla produkty w magazynie-->
+    <StackPanel Margin="10">
+
+        <TextBlock Text="Wyświetlanie produktów" FontWeight="Bold" Margin="0,0,0,15"/>
+
+        <Border BorderBrush="Black" BorderThickness="1" Margin="0,0,0,10">
+            <StackPanel Margin="5">
+                <TextBlock Text="Nazwa: Kabel YDYp 3x1.5"/>
+                <TextBlock Text="Kategoria: Przewody"/>
+                <TextBlock Text="EAN: 5901234567890"/>
+                <TextBlock Text="Lokalizacja: Półka P4"/>
+                <TextBlock Text="Stan: Na stanie (45 szt.)"/>
+            </StackPanel>
+        </Border>
+
+        <Border BorderBrush="Black" BorderThickness="1" Margin="0,0,0,10">
+            <StackPanel Margin="5">
+                <TextBlock Text="Nazwa: Wyłącznik nadprądowy B16"/>
+                <TextBlock Text="Kategoria: Aparatura modułowa"/>
+                <TextBlock Text="EAN: 5909876543211"/>
+                <TextBlock Text="Lokalizacja: Regał R2"/>
+                <TextBlock Text="Stan: Brak na stanie"/>
+            </StackPanel>
+        </Border>
+
+        <Border BorderBrush="Black" BorderThickness="1" Margin="0,0,0,10">
+            <StackPanel Margin="5">
+                <TextBlock Text="Nazwa: Gniazdo podwójne z/u"/>
+                <TextBlock Text="Kategoria: Osprzęt"/>
+                <TextBlock Text="EAN: 5904561237894"/>
+                <TextBlock Text="Lokalizacja: Sektor S1"/>
+                <TextBlock Text="Stan: Na stanie (120 szt.)"/>
+            </StackPanel>
+        </Border>
+
+        <Border BorderBrush="Black" BorderThickness="1" Margin="0,0,0,10">
+            <StackPanel Margin="5">
+                <TextBlock Text="Nazwa: Peszel 20/16"/>
+                <TextBlock Text="Kategoria: Rury instalacyjne"/>
+                <TextBlock Text="EAN: 5907418529630"/>
+                <TextBlock Text="Lokalizacja: Półka P1"/>
+                <TextBlock Text="Stan: Brak na stanie"/>
+            </StackPanel>
+        </Border>
+
+    </StackPanel>
+</Window>

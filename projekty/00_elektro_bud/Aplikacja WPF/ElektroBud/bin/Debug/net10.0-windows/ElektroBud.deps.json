@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v10.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v10.0": {
+      "ElektroBud/1.0.0": {
+        "runtime": {
+          "ElektroBud.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ElektroBud/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
