@@ -14,16 +14,19 @@ function buildList() {
     todosContainer.innerHTML = "";
     arrayOfTodos.forEach(element => {
         let container = document.createElement("div");
-        container.classList.add("card-body");
+        container.classList.add("border", "border-2", "rounded", "p-2", "shadow");
         let container2 = document.createElement("div");
         container2.classList.add("card");
         let title = document.createElement('h3');
         let id = document.createElement('p');
+        let deleteB = document.createElement('button');
+        deleteB.textContent = "Delete";
+        deleteB.classList.add("btn-danger", "btn", "w-100", "p-3");
         title.textContent = "Tytuł: " + element.title;
         id.textContent = "ID: " + element.id;
-        container.appendChild(title);
         container.appendChild(id);
-        container2.appendChild(container);
-        todosContainer?.appendChild(container2);
+        container.appendChild(title);
+        container.appendChild(deleteB);
+        todosContainer?.appendChild(container);
     });
 }
